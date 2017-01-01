@@ -1,3 +1,5 @@
+//FADES VV
+
 $(document).ready(function() {
     $('.menu').mouseenter(function() {
         $('.menu, .menu-top, menu-middle, menu-bottom').fadeTo('fast',.5);
@@ -43,18 +45,14 @@ $(document).ready(function() {
         });
 });
 
+//MENU STUFF VV
+
 $(document).ready(function() {
 	$('#actual-menu').hide();
 });
 
 $(document).ready(function(){
 	$('.menu').click(function() {
-		$('#actual-menu').fadeIn('slow');
-	});
-})
-
-$(document).ready(function(){
-	$('#X').click(function() {
-		$('#actual-menu').fadeOut('slow');
+		$('#actual-menu').slideToggle('slow');
 	});
 })
