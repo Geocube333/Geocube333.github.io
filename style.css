@@ -26,35 +26,6 @@ body {
   width: 190px;
 }
 
-#X {
-  background-color: #efefef;
-  height: 26px;
-  width: 26px;
-  position: relative;
-  left: 164px;
-  bottom: 81px;
-}
-
-#X-1 {
-  background-color: #6d6a6a;
-  height: 27px;
-  width: 3px;
-  transform: rotate(45deg);
-  position: relative;
-  left: 11px;
-  bottom: 1px;
-}
-
-#X-2 {
-  background-color: #6d6a6a;
-  height: 27px;
-  width: 3px;
-  transform: rotate(135deg);
-  position: relative;
-  left: 11px;
-  bottom: 28px;
-}
-
 .lists {
   list-style-type:none;
   height: 27px;
